@@ -1,0 +1,47 @@
+*{
+    font-size: 15px;
+    padding: 2px;
+}
+.heading{
+    text-align: center;
+    padding-right: 50%;
+}
+.form{
+    text-align: center;
+    padding-left: 35%;
+    
+}
+.main{
+    box-shadow: 10px;
+    width: 50%;
+   
+}
+.input{
+   margin-bottom: 10px;
+   
+}
+.gender{
+    padding-bottom: 10px;
+}
+.country{
+    padding-left: 10px;
+}
+.btn{
+    padding: 5px;
+    background-color: rgb(97, 89, 216);
+    width: 80px;
+    border-radius: 5px;
+    margin: 2px;
+    font-size: 15px;
+}
+@media (max-width:768) {
+    .container{
+        
+        display: flex;
+    }
+}
+@media (min-width:768) {
+    .label{
+        align-items: flex-start;
+    }
+}
